@@ -51,4 +51,18 @@ def minSum(arr, n):
 # Driver code
 arr = [2, 2, 3, 5, 6]
 n = len(arr)
+
+
+# Given an integer, perform the following conditional actions:
+# Array of integer values 
+x = [8, 10, 15, 24, 48, 50, 53, 81]
+
+print(len(x)) 
 print(minSum(arr, n))
+
+# Function takes in two values 
+def inval(x, y): 
+  if x % 2: 
+   return y 
+
+
