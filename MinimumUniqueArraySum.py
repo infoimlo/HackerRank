@@ -56,6 +56,7 @@ n = len(arr)
 # Given an integer, perform the following conditional actions:
 # Array of integer values 
 x = [8, 10, 15, 24, 48, 50, 53, 81]
+y = []
 
 print(len(x)) 
 print(minSum(arr, n))
@@ -63,6 +64,9 @@ print(minSum(arr, n))
 # Function takes in two values 
 def inval(x, y): 
   if x % 2: 
-   return y 
+   return y.append(x % 2)  
+
+inval(x,y) 
+
 
 
